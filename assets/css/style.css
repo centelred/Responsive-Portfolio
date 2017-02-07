@@ -1,15 +1,20 @@
 body {
 	background-image: url(../images/cheapfab.png);
-	width:960px;
-	margin:0 auto;
 	padding:0;
 	font-family:"Georgia", "Times New Roman", Times, serif;
 	font-size:16px;
 	color:#777777;
 }
 
+.container {
+	width:960px;
+	margin:0 auto;
+}
+
 header {
 	width:960px;
+	min-width:320px;
+	max-width:960px;
 	background-color:#ffffff;
 	border-bottom:solid 2px #cccccc;
 }
@@ -19,7 +24,7 @@ ul {
 	font-family:georgia;
     list-style-type: none;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 15px;
     overflow: hidden;
     background-color: #ffffff;
 }
@@ -81,7 +86,6 @@ h3 {
 	width:645px;
 	max-width:960px;
 	margin-right:5px;
-	margin-bottom:10px;
 }
 
 .biopic {
@@ -102,6 +106,8 @@ h3 {
 .bottom {
 	background-color:#666666;
 	width:960px;
+	min-width:320px;
+	max-width:960px;
 	clear:both;
 	overflow:auto;
 	border-top:solid 2px #4aaaa5;
@@ -113,7 +119,7 @@ h3 {
 
 @media only screen and (max-width: 959px) {
 
-	[class*="body"] {
+	[class*="container"] {
 		width: 100%;
 	}
 
@@ -122,17 +128,41 @@ h3 {
 	}
 
     [class*="right-bar"] {
-        width: 70%;
+        width: 25%;
     }
 
     [class*="left-bar"] {
-    	width: 30%;
+    	width: 70%;
     }
 
     [class*="bottom"] {
     	width: 100%;
     }
 }
+
+@media only screen and (max-width: 898px) {
+
+	[class*="container"] {
+		width: 100%;
+	}
+
+	[class*="top"] {
+		width: 100%;
+	}
+
+    [class*="right-bar"] {
+        width: 100%;
+    }
+
+    [class*="left-bar"] {
+    	width: 100%;
+    }
+
+    [class*="bottom"] {
+    	width: 100%;
+    }
+}
+
 
 @media only screen and (max-width: 640px) {
 
