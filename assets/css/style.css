@@ -1,0 +1,157 @@
+body {
+	background-image: url(../images/cheapfab.png);
+	width:960px;
+	margin:0 auto;
+	padding:0;
+	font-family:"Georgia", "Times New Roman", Times, serif;
+	font-size:16px;
+	color:#777777;
+}
+
+header {
+	width:960px;
+	background-color:#ffffff;
+	border-bottom:solid 2px #cccccc;
+}
+
+ul {
+	position:relative;
+	font-family:georgia;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
+	position:relative;
+	top:0px;
+	font-size:1rem;
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+}
+
+h1 {
+	color:#ffffff;
+	font-size:26px;
+	display:inline;
+	float:left;
+	margin-left:20px;
+	padding: 10.5px 20px 10.5px 20px;
+	background-color:#4aaaa5;
+}
+
+.left-bar, .right-bar {
+	background-color:#ffffff;
+	float:left;
+	margin-top:10px;
+	padding:10px;
+	border-bottom:solid 3px #dddddd;
+}
+
+h2, h3 {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#4aaaa5;
+	padding-bottom:10px;
+	border-bottom:solid 1px #dddddd;
+}
+
+h2 {
+	font-size:24px;
+}
+
+h3 {
+	font-size:20px;
+	text-align:center;
+}
+
+.left-bar {
+	width:645px;
+	max-width:960px;
+	margin-right:5px;
+	margin-bottom:10px;
+}
+
+.biopic {
+	float:left;
+	margin-right:15px;
+}
+
+.right-bar {
+	width:270px;
+	max-width:960px;
+}
+
+.conpic {
+	height:50px;
+	width:50px;
+}
+
+.bottom {
+	background-color:#666666;
+	width:960px;
+	clear:both;
+	overflow:auto;
+	border-top:solid 2px #4aaaa5;
+	line-height:200%;
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+@media only screen and (max-width: 959px) {
+
+	[class*="body"] {
+		width: 100%;
+	}
+
+	[class*="top"] {
+		width: 100%;
+	}
+
+    [class*="right-bar"] {
+        width: 70%;
+    }
+
+    [class*="left-bar"] {
+    	width: 30%;
+    }
+
+    [class*="bottom"] {
+    	width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+	[class*="top"]	{
+		width:100%;
+	}
+
+    [class*="right-bar"] {
+        width: 100%;
+    }
+
+    [class*="left-bar"] {
+    	width: 100%;
+    }
+
+   	[class*="bottom"] {
+   		width: 100%;
+   	}
+}
+
+@media only screen and (max-width: 320px) {
+}
