@@ -66,13 +66,16 @@ h3 {
 	font-weight:bolder;
 }
 
+.container {
+	width:980px;
+	margin:auto;
+	
+}
 
-.header {
+.top {
 	background-color:#ffffff;
-	width:100%;
+	width:980px;
 	float:left;
-	position:relative;
-	top:0px;
 	border-bottom:solid;
 	border-width:.2em;
 	border-color:#cccccc;
@@ -88,18 +91,16 @@ h3 {
 	font-size:150%;
 	top:0px;
 	left:3%;
-	width:15%;
+	width:20%;
 	background-color:#4aaaa5;
 }
 
-.section {
+.left-bar {
 	background-color:#ffffff;
-	position:absolute;
-	padding:2%;
-	top:12%;
-	left:10%;
 	float:left;
-	width:50%;
+	width:700px;
+	position:absolute;
+	top:12%;
 }
 
 .biopic {
@@ -108,23 +109,16 @@ h3 {
 }
 
 
-.aside {
+.right-bar {
 	background-color:#ffffff;
-	float:right;
-	position:absolute;
-	padding:2%;
-	width:20%;
-	top:12%;
-	right:10%;
+	float:left;
+	width:260px;
 }
 
-.footer {
+.bottom {
 	background-color:#666666;
-	width:100%;
-	left:0px;
 	float:left;
-	position:fixed;
-	bottom:0px;
+	width:980px;
 	border-top:solid;
 	border-width:.5em;
 	border-color:#4aaaa5;
@@ -153,33 +147,4 @@ h3 {
 .submit {
 	background-color:#4aaaa5;
 	color:#666666;
-}
-
-*/
-@media screen and (max-width: 980px) {
-
-  /* The body's bg color will be #333 */
-  body { background-color: #333; }
-
-  /* The wrapper's width will be 600px */
-  .wrapper { width: 600px; }
-  
-}
-
-
-*/
-@media screen and (max-width: 768px) {
-
-  /* The body's bg color will be #333 */
-  body { background-color: #333; }
-
-  /* The wrapper's width will be 600px */
-  .wrapper { width: 600px; }
-  
-}
-
-*/
-@media screen and (max-width: 640px) {
-
-  
 }

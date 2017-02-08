@@ -11,12 +11,41 @@ body {
 	margin:0 auto;
 }
 
+
 header {
 	width:960px;
+	margin:0 auto;
+	width:960px;
+	position:absolute;
 	min-width:320px;
 	max-width:960px;
 	background-color:#ffffff;
 	border-bottom:solid 2px #cccccc;
+}
+
+.nav, .logo {
+	float:left;
+	top:0px;
+}
+
+.logo {
+	background-color:#4aaaa5;
+	width:270px;
+	position:relative;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	margin-left:20px;
+}
+
+h1 {
+	color:#ffffff;
+	font-size:26px;
+}
+
+.nav {
+	position:relative;
+	width:670px;
 }
 
 ul {
@@ -48,20 +77,10 @@ li a:hover {
     background-color: #4aaaa5;
 }
 
-h1 {
-	color:#ffffff;
-	font-size:26px;
-	display:inline;
-	float:left;
-	margin-left:20px;
-	padding: 10.5px 20px 10.5px 20px;
-	background-color:#4aaaa5;
-}
-
 .left-bar, .right-bar {
 	background-color:#ffffff;
 	float:left;
-	margin-top:10px;
+	margin-top:50px;
 	padding:10px;
 	border-bottom:solid 3px #dddddd;
 }
@@ -91,6 +110,19 @@ h3 {
 .biopic {
 	float:left;
 	margin-right:15px;
+}
+
+.image {
+	display:inline-block;
+	padding:1%;
+}
+
+.desc {
+	background-color:#4aaaa5;
+	position:relative;
+	bottom:45px;
+	line-height:1.5em;
+	padding:2%;
 }
 
 .right-bar {
@@ -124,7 +156,15 @@ h3 {
 	}
 
 	[class*="top"] {
-		width: 100%;
+		width:100%;
+	}
+
+	[class*="logo"] {
+		width:30%;
+	}
+
+	[class*="nav"] {
+		width:60%;
 	}
 
     [class*="right-bar"] {
@@ -147,15 +187,26 @@ h3 {
 	}
 
 	[class*="top"] {
-		width: 100%;
+		width:100%;
+	}
+
+	[class*="logo"] {
+		width:40%;
+	}
+
+	[class*="nav"] {
+		width:45%;
 	}
 
     [class*="right-bar"] {
-        width: 100%;
+        width: 95%;
+		margin-left:10px;
+		margin-top:5px;
     }
 
     [class*="left-bar"] {
-    	width: 100%;
+    	width: 95%;
+		margin-left:10px;
     }
 
     [class*="bottom"] {
@@ -166,16 +217,34 @@ h3 {
 
 @media only screen and (max-width: 640px) {
 
-	[class*="top"]	{
+	[class*="top"] {
 		width:100%;
 	}
 
+	[class*="logo"] {
+		width:100%;
+		margin-left:0;
+	}
+
+	[class*="nav"] {
+		width:100%;
+		position:relative;
+		right:27.5%;
+	}
+
+	[class*="header"] {
+		width:100%
+	}
+
     [class*="right-bar"] {
-        width: 100%;
+        width: 93%;
+        margin-top:5px;
+        margin-bottom:10px;
     }
 
     [class*="left-bar"] {
-    	width: 100%;
+    	width:93%;
+    	margin-top:15%;
     }
 
    	[class*="bottom"] {
