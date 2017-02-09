@@ -205,7 +205,7 @@ h3 {
     }
 
     [class*="left-bar"] {
-    	width: 95%;
+    	width: 90%;
 		margin-left:5px;
     }
 
@@ -230,7 +230,6 @@ h3 {
 		width:100%;
 		position:absolute;
 		top:45px;
-		float:middle;
 	}
 	nav li {
 		text-align:center;
@@ -245,6 +244,16 @@ h3 {
         position:relative;
         margin-top:65px;
         padding-top:15px;
+    }
+
+    [class*="image"] {
+    	width:100%;
+    }
+
+    [class*="desc"] {
+    	width:86%;
+    	position:relative;
+    	bottom:80px;
     }
 
     [class*="left-bar"] {
