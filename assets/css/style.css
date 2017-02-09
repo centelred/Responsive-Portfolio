@@ -149,7 +149,7 @@ h3 {
 	padding-bottom:15px;
 }
 
-@media only screen and (max-width: 959px) {
+@media only screen and (max-width: 979px) {
 
 	[class*="container"] {
 		width: 100%;
@@ -180,7 +180,7 @@ h3 {
     }
 }
 
-@media only screen and (max-width: 898px) {
+@media only screen and (max-width: 768px) {
 
 	[class*="container"] {
 		width: 100%;
@@ -228,27 +228,36 @@ h3 {
 
 	[class*="nav"] {
 		width:100%;
+		position:absolute;
+		top:45px;
+		float:middle;
 	}
-
+	nav li {
+		text-align:center;
+	}
 	[class*="header"] {
+		position:static;
 		width:100%
 	}
 
     [class*="right-bar"] {
         width: 93%;
-        margin-top:5px;
-        margin-bottom:10px;
+        position:relative;
+        margin-top:65px;
+        padding-top:15px;
     }
 
     [class*="left-bar"] {
-    	width:93%;
-    	margin-top:15%;
+    	width:90%;
+    	position:relative;
+    	top:55px;
+    	padding-top:15px;
+    	padding-left:30px;
     }
 
     img{
     	width:90%;
     }
-
 
    	[class*="bottom"] {
    		width: 100%;
