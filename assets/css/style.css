@@ -240,7 +240,7 @@ h3 {
 	}
 
     [class*="right-bar"] {
-        width: 93%;
+        width: 95%;
         position:relative;
         margin-top:65px;
         padding-top:15px;
@@ -257,11 +257,10 @@ h3 {
     }
 
     [class*="left-bar"] {
-    	width:90%;
+    	width:95%;
     	position:relative;
     	top:55px;
     	padding-top:15px;
-    	padding-left:30px;
     }
 
     img{
